@@ -1,0 +1,300 @@
+# CSAL Project Manifest
+# Version: 1.0.0
+# Last Updated: 2025-11-01
+
+project:
+  name: "Cognitive Systems Analogy Lab"
+  acronym: "CSAL"
+  version: "0.1.0-alpha"
+  status: "Stage 1 - Foundational Mimicry"
+  inception_date: "2025-11-01"
+  license: "Apache-2.0"
+  repository: "https://github.com/[username]/neural-process-model"
+
+mission: |
+  Bridge biological cognition and artificial intelligence by creating functional
+  computational analogues of brain processes. Rather than simulating neurons literally,
+  we translate cognitive principles into modular, composable AI architectures that
+  replicate the emergent properties of human thought.
+
+principles:
+  - "Functional convergence over literal mimicry"
+  - "Emergence over engineering"
+  - "Modularity and composability"
+  - "Evidence-based design"
+  - "Interdisciplinary integration"
+  - "Ethics first"
+  - "Open science"
+
+stages:
+  current_stage: 1
+  stages:
+    - id: 1
+      name: "Foundational Mimicry"
+      duration: "0-12 months"
+      status: "in_progress"
+      progress: 2
+      goal: "Build isolated cognitive modules replicating individual brain functions"
+    - id: 2
+      name: "Integrative Cognition"
+      duration: "12-24 months"
+      status: "not_started"
+      progress: 0
+      goal: "Multi-function cognitive loops and emergent coordination"
+    - id: 3
+      name: "Contextual Intelligence"
+      duration: "2-4 years"
+      status: "not_started"
+      progress: 0
+      goal: "Episodic memory, goal hierarchies, creative synthesis"
+    - id: 4
+      name: "Meta-Cognition"
+      duration: "4-7 years"
+      status: "not_started"
+      progress: 0
+      goal: "Self-monitoring, reflection, adaptive architecture"
+    - id: 5
+      name: "Full Cognitive Simulation"
+      duration: "7-15 years"
+      status: "not_started"
+      progress: 0
+      goal: "Connectome simulation, conscious workspace, CSE platform"
+
+cognitive_modules:
+  implemented:
+    # None yet - Stage 1 in progress
+
+  in_development:
+    # To be added as modules are implemented
+
+  planned:
+    - name: "Perception Processor"
+      brain_analogue: "Primary/Temporal Cortex"
+      cognitive_function: "perception"
+      priority: "high"
+      stage: 1
+    - name: "Working Memory Cache"
+      brain_analogue: "Dorsolateral Prefrontal Cortex"
+      cognitive_function: "memory"
+      priority: "high"
+      stage: 1
+    - name: "Attention Controller"
+      brain_analogue: "Anterior Cingulate Cortex"
+      cognitive_function: "attention"
+      priority: "high"
+      stage: 1
+    - name: "Episodic Memory Store"
+      brain_analogue: "Hippocampus"
+      cognitive_function: "memory"
+      priority: "high"
+      stage: 1
+    - name: "Executive Controller"
+      brain_analogue: "Prefrontal Cortex"
+      cognitive_function: "executive"
+      priority: "high"
+      stage: 1
+    - name: "Learning Module"
+      brain_analogue: "Basal Ganglia"
+      cognitive_function: "learning"
+      priority: "medium"
+      stage: 1
+    - name: "Emotional System"
+      brain_analogue: "Amygdala"
+      cognitive_function: "emotion"
+      priority: "medium"
+      stage: 1
+    - name: "Creativity Engine"
+      brain_analogue: "DMN/ECN"
+      cognitive_function: "creativity"
+      priority: "medium"
+      stage: 2
+    - name: "Metacognitive Monitor"
+      brain_analogue: "Medial Prefrontal Cortex"
+      cognitive_function: "metacognition"
+      priority: "low"
+      stage: 4
+
+documentation:
+  foundations:
+    - title: "Research Charter"
+      path: "docs/00_Foundations/research-charter.md"
+      status: "active"
+      last_update: "2025-11-01"
+    - title: "Cognitive Systems Framework"
+      path: "docs/00_Foundations/cognitive-systems-framework.md"
+      status: "active"
+      last_update: "2025-11-01"
+    - title: "Ethics & Safety Whitepaper"
+      path: "docs/00_Foundations/ethics-safety-whitepaper.md"
+      status: "active"
+      last_update: "2025-11-01"
+
+  research:
+    - title: "Taxonomy of Brain Patterns & Functions"
+      path: "research/taxonomy-of-brain-patterns-functions.md"
+      status: "active"
+      last_update: "2025-11-01"
+
+  design:
+    - title: "Cognitive Architecture Blueprint"
+      path: "docs/02_Design/cognitive-architecture-blueprint.md"
+      status: "active"
+      last_update: "2025-11-01"
+    - title: "Cognitive Module Specifications"
+      path: "docs/02_Design/cognitive-module-specifications.md"
+      status: "active"
+      last_update: "2025-11-01"
+
+  experiments:
+    - title: "Experiment Design Template"
+      path: "docs/04_Experiments/experiment-template.md"
+      status: "active"
+      last_update: "2025-11-01"
+
+  program:
+    - title: "Roadmap & Milestones"
+      path: "docs/06_Program/roadmap-milestones.md"
+      status: "active"
+      last_update: "2025-11-01"
+
+technology_stack:
+  languages:
+    primary: "Python 3.11+"
+    secondary: "TypeScript"
+
+  ai_ml:
+    llms:
+      - "OpenAI GPT-4"
+      - "Anthropic Claude"
+      - "Local models (via Ollama)"
+    embeddings:
+      - "OpenAI text-embedding-3-large"
+      - "Cohere embed-english-v3.0"
+    frameworks:
+      - "PyTorch"
+      - "scikit-learn"
+      - "LangChain"
+
+  data_storage:
+    vector_db: "Pinecone / Qdrant"
+    knowledge_graph: "Neo4j"
+    relational: "PostgreSQL"
+    cache: "Redis"
+
+  infrastructure:
+    web_framework: "FastAPI"
+    async: "asyncio"
+    messaging: "RabbitMQ / Redis"
+    monitoring: "Prometheus + Grafana"
+    logging: "structlog"
+
+milestones:
+  completed:
+    # None yet
+
+  current:
+    - id: "M1.1"
+      title: "Repository & Infrastructure Setup"
+      target_date: "2025-12-01"
+      status: "in_progress"
+      progress: 50
+      deliverables:
+        - "Folder structure implemented ✓"
+        - "Documentation framework established ✓"
+        - "Git repository initialized (pending)"
+        - "CI/CD pipeline configured (pending)"
+        - "Vector database deployed (pending)"
+
+  upcoming:
+    - id: "M1.2"
+      title: "Perception Module v1"
+      target_date: "2025-01-01"
+      status: "not_started"
+    - id: "M1.3"
+      title: "Working Memory Module v1"
+      target_date: "2025-02-01"
+      status: "not_started"
+
+team:
+  roles_defined:
+    - role: "Principal Investigator"
+      responsibilities:
+        - "Research direction"
+        - "Ethics oversight"
+        - "Publication strategy"
+    - role: "Neuroscience Advisor"
+      responsibilities:
+        - "Validate brain analogies"
+        - "Literature review"
+        - "Biological benchmarking"
+    - role: "AI Engineer"
+      responsibilities:
+        - "Module implementation"
+        - "System architecture"
+        - "Performance optimization"
+    - role: "Research Engineer"
+      responsibilities:
+        - "Experiment design"
+        - "Data analysis"
+        - "Benchmarking"
+
+collaboration:
+  partnerships:
+    # To be established
+
+  contributions:
+    welcome: true
+    areas:
+      - "Neuroscience literature review"
+      - "Cognitive module implementation"
+      - "Experiment design"
+      - "Documentation"
+      - "Ethics analysis"
+
+  communication:
+    github_issues: true
+    discussions: true
+    mailing_list: false  # To be set up
+
+ethics:
+  review_board:
+    established: false
+    planned: true
+
+  red_lines:
+    - "No unified conscious agents"
+    - "No modeling of suffering"
+    - "No autonomous weapons"
+    - "No mass surveillance tools"
+    - "No deceptive systems by design"
+
+  safety_mechanisms:
+    - "Human-in-the-loop for critical decisions"
+    - "Transparency and explainability"
+    - "Fail-safe defaults"
+    - "Continuous monitoring"
+    - "Kill switches and overrides"
+
+ai_optimization:
+  config_file: "ai/ai_config.json"
+  embedding_model: "text-embedding-3-large"
+  vector_store: "pinecone"
+  chunking_strategy: "semantic"
+  retrieval_method: "hybrid_search"
+
+metadata:
+  last_updated: "2025-11-01"
+  version: "1.0.0"
+  maintainer: "[To be filled]"
+  contact: "[To be filled]"
+
+notes: |
+  This manifest is a living document that tracks the overall state of the CSAL project.
+  It should be updated regularly as milestones are completed, modules are implemented,
+  and the project evolves.
+
+  The manifest serves as:
+  - A single source of truth for project status
+  - A reference for AI tools and agents
+  - A communication tool for stakeholders
+  - A historical record of project evolution
